@@ -34,7 +34,11 @@ def main():
 
     for t in threadings:
         t.start()
-        t.join()'''
+        t.join()
+        
+if __name__ == '__main__':
+    main()
+'''
 
 
 #######################################
