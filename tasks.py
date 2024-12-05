@@ -67,14 +67,19 @@ def main():
     for n in a:
         result *= n
 
-    print(result)'''
+    print(result)
+   
+if __name__ == '__main__':
+    main()    
+'''
 
 
 ################################
 
 
 #4 задание
-'''def fact(start, end, a):
+'''
+def fact(start, end, a):
     f = 1
     for n in range(start, end + 1):
         f *= n
@@ -103,7 +108,11 @@ def main():
     for n in a:
         result *= n
 
-    print(result)'''
+    print(result)
+    
+if __name__ == '__main__':
+    main()
+'''
 
 
 ################################
@@ -167,14 +176,15 @@ if __name__ == "__main__":
 
     sorted_array = parallel_sort(large_array, num_threads=8)
 
-    print(sorted_array)'''
+    print(sorted_array)
+'''
 
 
 ##############################################
 
 
 #6 задание
-
+'''
 import time
 import random
 
@@ -212,8 +222,6 @@ if __name__ == "__main__":
     for client_thread in clients:
         client_thread.join()
 
-    print(f"Конечный баланс: {atm.balance} рублей.")
+    print(f"Конечный баланс: {atm.balance} рублей.")'''
 
-'''
-if __name__ == '__main__':
-    main()'''
+
